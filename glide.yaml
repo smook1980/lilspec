@@ -1,0 +1,4 @@
+package: github.com/smook1980/lilspec
+import:
+- package: github.com/onsi/gomega
+  version: ^1.1.0
