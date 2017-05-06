@@ -33,7 +33,7 @@ func (s *S) Expect(it interface{}, e ...interface{}) gomega.GomegaAssertion {
 	return gomega.Expect(it, e...)
 }
 
-func (s *S) mock() *gomock.Controller {
+func (s *S) Mock() *gomock.Controller {
 	s.once.Do(func() {
 		s.mockCtrl = gomock.NewController(s.TCtx)
 	})
