@@ -1,4 +1,11 @@
 package: github.com/smook1980/lilspec
 import:
+- package: github.com/golang/mock
+  subpackages:
+  - gomock
 - package: github.com/onsi/gomega
   version: ^1.1.0
+  subpackages:
+  - format
+  - types
+- package: github.com/spf13/afero

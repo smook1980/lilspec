@@ -1,6 +1,10 @@
-hash: 04116879aaa20b87f5dc45cd003762baa9fc7c935f0aa83b81d8ca024bb99d1e
-updated: 2017-04-29T20:18:55.050954468-05:00
+hash: 845ec8d509dc2782a6548fc0d9da80acf5f2842a31c4ac3461da5a9da6346906
+updated: 2017-05-07T15:35:06.201394011-05:00
 imports:
+- name: github.com/golang/mock
+  version: bd3c8e81be01eef76d4b503f5e687d2d1354d2d9
+  subpackages:
+  - gomock
 - name: github.com/onsi/gomega
   version: 334b8f472b3af5d541c5642701c1e29e2126f486
   subpackages:
@@ -15,6 +19,15 @@ imports:
   - matchers/support/goraph/node
   - matchers/support/goraph/util
   - types
+- name: github.com/spf13/afero
+  version: 9be650865eab0c12963d8753212f4f9c66cdcf12
+  subpackages:
+  - mem
+- name: golang.org/x/text
+  version: 470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4
+  subpackages:
+  - transform
+  - unicode/norm
 - name: gopkg.in/yaml.v2
   version: cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b
 testImports: []
