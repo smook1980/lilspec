@@ -1,5 +1,5 @@
 hash: 845ec8d509dc2782a6548fc0d9da80acf5f2842a31c4ac3461da5a9da6346906
-updated: 2017-05-07T15:35:06.201394011-05:00
+updated: 2017-05-13T09:22:28.237566442-05:00
 imports:
 - name: github.com/golang/mock
   version: bd3c8e81be01eef76d4b503f5e687d2d1354d2d9
@@ -24,7 +24,7 @@ imports:
   subpackages:
   - mem
 - name: golang.org/x/text
-  version: 470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4
+  version: 19e51611da83d6be54ddafce4a4af510cb3e9ea4
   subpackages:
   - transform
   - unicode/norm

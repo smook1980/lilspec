@@ -8,8 +8,10 @@ import (
 )
 
 func TestMatchers(t *testing.T) {
-	T(t).Describe("BeARegularFile", func(s *S) {
+	T(t).Describe("BeARegularFile", func(b B) {
 		fs := afero.NewOsFs()
-		s.Expect("matchers_test.go").To(BeAFile(fs))
+		b.It("matches an existing file", func(s S) {
+			s.Expect("matchers_test.go").To(BeAFile(fs))
+		})
 	})
 }
